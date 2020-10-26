@@ -1,0 +1,136 @@
+footer {
+  text-align: left;
+  padding: 3px;
+  color: black;
+  display: block;
+}
+
+#sickness {
+  color: #178CCB;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#demo {
+  color: #99DFB2;
+  font-size: 26px;
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#emergency {
+  color: #99DFB2;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+.footer-sticky {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.bg-acl {
+	background-color: #99DFB2;
+}
+
+.maribo {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 32px;
+}
+
+.oqin {
+  position: absolute;
+  top: 35%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 32px;
+}
+
+.container mb-5{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar-brand h1 {
+  color: #178CCB;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 7px;
+}
+
+.navbar-brand p {
+  color: #178CCB;
+  margin-left: 800px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.a-acl {
+	color: #3c3c3c!important;
+}
+
+.my-card:hover {
+	border-color: #f58723;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #99DFB2;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #99DFB2;}
